@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doisongs",
+  "info": {
+    "singularName": "doisong",
+    "pluralName": "doisongs",
+    "displayName": "doisong",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "creator": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
